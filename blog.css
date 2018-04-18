@@ -147,6 +147,9 @@ body{
     color:#efefef;
     background-color: #222
 }
+.card-img-right{
+    max-width: 10rem;
+}
 
 
 
