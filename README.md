@@ -2,7 +2,7 @@
 concrete valley records
 
 //TODO//
--homepage
+-homepage###
 -populate with images
 -about page
 -contact page
