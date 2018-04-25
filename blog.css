@@ -139,7 +139,7 @@ body{
 }
 
 .jumbotron{
-    
+    background-color: #000;
     box-shadow: 10px 10px 18px -2px #000;
 }
 
@@ -163,4 +163,12 @@ a:hover{
 }
 a:active{
     color:#ffc107;
+}
+
+.logo{
+    max-height: 20rem;
+    max-width: 20rem; 
+}
+.half{
+   font-family: "azo-sans-uber",sans-serif;
 }
