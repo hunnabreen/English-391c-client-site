@@ -6,16 +6,34 @@
 }
 
 .blog-header-logo {
-  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
-  font-size: 2.25rem;
+  font-family: "ingeborg-block",sans-serif;
+  font-size: 3rem;
+  letter-spacing: .4rem;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.8);
+  
 }
 
 .blog-header-logo:hover {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+ h3, h4, h5, h6 {
   font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+}
+
+h1,h2{
+  font-family: "ingeborg-block",sans-serif;
+ text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.8);
+}
+
+h1{
+  letter-spacing: .05rem;
+}
+
+h2{
+  letter-spacing: .5rem;
+  font-size: 3rem;
+  text-align: center;
 }
 
 .display-4 {
@@ -75,47 +93,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
 
-/*
- * Blog name and description
- */
-.blog-title {
-  margin-bottom: 0;
-  font-size: 2rem;
-  font-weight: 400;
-}
-.blog-description {
-  font-size: 1.1rem;
-  color: #999;
-}
 
-@media (min-width: 40em) {
-  .blog-title {
-    font-size: 3.5rem;
-  }
-}
 
-/* Pagination */
-.blog-pagination {
-  margin-bottom: 4rem;
-}
-.blog-pagination > .btn {
-  border-radius: 2rem;
-}
-
-/*
- * Blog posts
- */
-.blog-post {
-  margin-bottom: 4rem;
-}
-.blog-post-title {
-  margin-bottom: .25rem;
-  font-size: 2.5rem;
-}
-.blog-post-meta {
-  margin-bottom: 1.25rem;
-  color: #999;
-}
 
 /*
  * Footer
@@ -135,7 +114,7 @@ h1, h2, h3, h4, h5, h6 {
 *
 */
 body{
-    background-color: #222
+    background-color: #222;
 }
 
 
@@ -145,12 +124,43 @@ body{
 
 .donate{
     color:#efefef;
-    background-color: #222
+    background-color: #222;
 }
 .card-img-right{
-    max-width: 10rem;
+    max-width: 12rem; 
+}
+.card{
+    min-height: 12rem;
+    box-shadow: 10px 10px 18px -2px #000;
+}
+.card-body{
+    background-color: #000;
+    box-shadow: 10px 0px 18px -2px #000; 
 }
 
+.jumbotron{
+    
+    box-shadow: 10px 10px 18px -2px #000;
+}
 
+.card-text{
+    color:#fff;
+}
 
-
+.top{
+  font-family: "azo-sans-uber",sans-serif;
+  font-size: 1.7rem;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.8);
+}
+a{
+    color:orangered;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+    font-family: "azo-sans",sans-serif;
+    
+}
+a:hover{
+    color:#ffc107;
+}
+a:active{
+    color:#ffc107;
+}
