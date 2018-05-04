@@ -1,0 +1,211 @@
+/* stylelint-disable selector-list-comma-newline-after */
+
+.blog-header {
+  line-height: 1;
+  border-bottom: 1px solid #000;
+  color:#000;
+}
+
+.blog-header-logo {
+  font-family: "bebas-neue",sans-serif;
+  font-size: 3rem;
+  letter-spacing: .4rem;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.8);
+  color:#000;
+}
+
+.blog-header-logo:hover {
+  text-decoration: none;
+}
+
+ h3, h4, h5, h6 {
+  font-family: 'Quicksand', sans-serif;
+}
+
+h1,h2{
+ font-family: "bebas-neue",sans-serif;
+ text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.8);
+}
+
+h1{
+  letter-spacing: .05rem;
+}
+
+h2{
+  letter-spacing: .5rem;
+  font-size: 3rem;
+  text-align: center;
+    
+}
+.head{
+    color:#000;
+}
+
+.display-4 {
+  font-size: 2.5rem;
+}
+@media (min-width: 768px) {
+  .display-4 {
+    font-size: 3rem;
+  }
+}
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  
+}
+
+.nav-scroller .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.nav-scroller .nav-link {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  font-size: .875rem;
+}
+
+.card-img-right {
+  height: 100%;
+  border-radius: 0 3px 3px 0;
+}
+
+.flex-auto {
+  -ms-flex: 0 0 auto;
+  -webkit-box-flex: 0;
+  flex: 0 0 auto;
+}
+
+.h-250 { height: 250px; }
+@media (min-width: 768px) {
+  .h-md-250 { height: 250px; }
+}
+
+.border-top { border-top: 1px solid #e5e5e5; }
+.border-bottom { border-bottom: 1px solid #e5e5e5; }
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+
+
+
+/*
+ * Footer
+ */
+.blog-footer {
+  padding: 2.5rem 0;
+  color: #999;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-top: .05rem solid #e5e5e5;
+}
+.blog-footer p:last-child {
+  margin-bottom: 0;
+}
+/*
+*
+*
+*/
+body{
+    background-color: #fff;
+}
+
+
+.p-3, .pb-3, .p-2{
+    color:#efefef;
+}
+
+.donate{
+    color:#efefef;
+    background-color: #222;
+    box-shadow: 10px 10px 30px -2px #000;
+}
+.card-img-right{
+    max-width: 12rem;
+    box-shadow: 10px 10px 40px -2px #000;
+}
+.card{
+    min-height: 12rem;
+    box-shadow: 10px 10px 40px -2px #000;
+}
+.card-body{
+    background-color: #000;
+    box-shadow: 10px 10px 30px -2px #000;
+}
+.card-img-top{
+    box-shadow: 10px 20px 30px -2px #000; 
+}
+
+.jumbotron{
+    background-color: #000;
+    box-shadow: 10px 10px 18px -2px #000;
+/*  background-image: url(media/jumbo_piece_potential.png); */
+    background-image: url(media/aerial_dark.png);
+    background-size:cover;
+    padding-top: 2rem;
+}
+
+.card-text{
+    color:#fff;
+}
+
+.top{
+   font-family: "bebas-neue",sans-serif;
+  font-size: 1.9rem;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.8);
+    color:#000;
+}
+a{
+    color:orangered;
+    text-shadow: 2px 1px 1px rgba(0, 0, 0, 5);
+    font-family: "bebas-neue",sans-serif;
+    letter-spacing: 0.2rem;
+    
+}
+a:hover{
+    color:#ffc107;
+}
+a:active{
+    color:#ffc107;
+}
+
+.logo{
+    max-height: 20rem;
+    max-width: 20rem; 
+}
+.half{
+   font-family: "bebas-neue",sans-serif;
+   font-size: 3rem;
+}
+.lead{
+    text-shadow: 2px 1px 1px rgba(0, 0, 0, 225);
+    font-size: 2rem;
+}
+strong{
+   font-family: "bebas-neue",sans-serif;
+   letter-spacing: 0.2rem;
+   font-size: 1.5rem;
+}
+
+.card-header{
+    font-family: "bebas-neue",sans-serif;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.8);
+    font-size: 6rem;
+}
+.card-title{
+    font-family: "bebas-neue",sans-serif;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.8);
+    font-size: 3rem;
+}
